@@ -114,8 +114,10 @@ aside {
 }
 
 footer {
-    padding-top: 200px;
-    padding-bottom: 15px;
-	clear:both;
+    clear:both;
+    padding: 1em;
     text-align:center;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
 }

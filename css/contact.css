@@ -4,20 +4,10 @@
     box-sizing: border-box;
 }
 
-header {
-    height: 500px;
-    text-align: center;
-    padding-top: 100px;
-}
-
-body {
+html {
     background-image: url(../images/barinheader.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-h1 {
-    font-family:fantasy;
 }
 
 .contact {
@@ -80,8 +70,11 @@ h1 {
 }
 
 footer {
-    padding-top: 320px;
-	clear:both;
+    clear:both;
+    padding: 1em;
     text-align:center;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
 }
 
