@@ -22,12 +22,19 @@ h2 {
     font-size: 30px;
     color: rgba(36, 186, 230, 0.71);
     padding-top: 50px;
-    padding-right: 8%;
     text-align: center;
 }
 
 h3 {
     color: rgba(36, 186, 230, 0.71);
+    text-align: center;
+}
+
+h4 {
+    font-size: 30px;
+    color: rgba(36, 186, 230, 0.71);
+    padding-top: 50px;
+    padding-right: 8%;
     text-align: center;
 }
 
