@@ -115,9 +115,9 @@ aside {
 
 footer {
     clear:both;
-    padding: 1em;
+    padding: 1em; 
+    padding-top: 20%;
     text-align:center;
-    position:fixed;
-    bottom: 0;
+    bottom: 20px;
     width: 100%;
 }
