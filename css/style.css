@@ -15,9 +15,11 @@ header {
 
 h1 {
     font-family:fantasy;
+    font-size: 80px;
 }
 
 h2 {
+    font-size: 30px;
     color: rgba(36, 186, 230, 0.71);
     padding-top: 50px;
     text-align: center;
@@ -26,6 +28,11 @@ h2 {
 h3 {
     color: rgba(36, 186, 230, 0.71);
     text-align: center;
+}
+
+p {
+    font-size: 20px;
+    line-height: 3;
 }
 
 #wrapper{
@@ -61,10 +68,31 @@ h3 {
     100%{transform:scale(1);}
 }
 
-#div1{
+#div1 {
     position: relative;
     float:left;
 }
+
+#div2 {
+    position: relative;
+    float:left;
+}
+
+#div3 {
+    position: relative;
+    float:left;
+}
+
+#div4 {
+    position: relative;
+    float:left;
+}
+
+#div5 {
+    position: relative;
+    float:left;
+}
+
 
 #span1 {
     font-family:fantasy;
@@ -94,6 +122,28 @@ h3 {
     position: absolute;
     bottom: 120px;
     left: 145px;
+    text-align: center;
+    color: black;
+    display: none;
+}
+
+#span4 {
+    font-family:fantasy;
+    font-size: 50px;
+    position: absolute;
+    bottom: 120px;
+    left: 170px;
+    text-align: center;
+    color: black;
+    display: none;
+}
+
+#span5 {
+    font-family:fantasy;
+    font-size: 50px;
+    position: absolute;
+    bottom: 120px;
+    left: 170px;
     text-align: center;
     color: black;
     display: none;
