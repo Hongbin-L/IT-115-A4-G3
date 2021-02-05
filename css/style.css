@@ -43,6 +43,63 @@ h3 {
     padding-top: 20px;
 }
 
+#bars img{
+    margin-bottom:20px;
+    cursor:pointer;
+}
+
+#bars :hover img{
+    animation: run 1.5s;
+}
+
+@keyframes run{
+    0%{ transform:scale(0.8);}
+    25%{transform:scale(1.2);}
+    50%{transform:scale(1);}
+    70%{transform:scale(1.1);}
+    100%{transform:scale(1);}
+}
+
+#div1{
+    position: relative;
+    float:left;
+}
+
+#span1 {
+    font-size: 50px;
+    position: absolute;
+    bottom: 120px;
+    left: 150px;
+    text-align: center;
+    color: black;
+    display: none;
+}
+
+#span2 {
+    font-size: 50px;
+    position: absolute;
+    bottom: 120px;
+    left: 180px;
+    text-align: center;
+    color: black;
+    display: none;
+}
+
+#span3 {
+    font-size: 50px;
+    position: absolute;
+    bottom: 120px;
+    left: 115px;
+    text-align: center;
+    color: black;
+    display: none;
+}
+
+#bars :hover span{
+    animation: run 1.5s;
+    display: block;
+}
+
 a img {
     padding-left: 100px;
     padding-top: 50px;

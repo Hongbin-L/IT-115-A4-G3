@@ -42,17 +42,3 @@
     width: 200px;
     margin-top: 1rem;
 }
-
-#cssmenu ul li:hover ul li{
-    display: block;
-    background-color: #27b8e3;
-}
-
-#cssmenu ul li:hover ul li a{
-    color: #fff;
-}
-
-#cssmenu ul li:hover ul li:hover{
-    background-color: #167a98;
-    color: inherit;
-}
