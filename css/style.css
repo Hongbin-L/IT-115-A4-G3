@@ -7,8 +7,58 @@
 header {
     height: 500px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 150px;
     background-image: url(../images/barinheader.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+h1 {
+    font-family:fantasy;
+}
+
+h2 {
+    color: rgba(36, 186, 230, 0.71);
+    padding-top: 50px;
+    text-align: center;
+}
+
+h3 {
+    color: rgba(36, 186, 230, 0.71);
+    text-align: center;
+}
+
+#wrapper{
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+#center {
+    padding: 150px;
+    padding-top: 20px;
+}
+
+#map {
+    padding:10%;
+    padding-top: 20px;
+}
+
+a img {
+    padding-left: 100px;
+    padding-top: 50px;
+    height: 300px;
+    width: 500px;    
+}
+
+aside {
+    padding-right: 150px;
+    float: right;
+    width: 30%;
+}
+
+footer {
+    padding-top: 200px;
+    padding-bottom: 15px;
+	clear:both;
+    text-align:center;
 }
