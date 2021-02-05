@@ -34,12 +34,13 @@ h3 {
 }
 
 #center {
-    padding: 150px;
+    padding: 20%;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #map {
-    padding:10%;
+    padding:34%;
     padding-top: 20px;
 }
 
@@ -66,30 +67,33 @@ h3 {
 }
 
 #span1 {
+    font-family:fantasy;
     font-size: 50px;
     position: absolute;
     bottom: 120px;
-    left: 150px;
+    left: 170px;
     text-align: center;
     color: black;
     display: none;
 }
 
 #span2 {
+    font-family:fantasy;
     font-size: 50px;
     position: absolute;
     bottom: 120px;
-    left: 180px;
+    left: 200px;
     text-align: center;
     color: black;
     display: none;
 }
 
 #span3 {
+    font-family:fantasy;
     font-size: 50px;
     position: absolute;
     bottom: 120px;
-    left: 115px;
+    left: 145px;
     text-align: center;
     color: black;
     display: none;
@@ -108,8 +112,7 @@ a img {
 }
 
 aside {
-    padding-right: 150px;
-    float: right;
+    padding-right: 10%;
     width: 30%;
 }
 
