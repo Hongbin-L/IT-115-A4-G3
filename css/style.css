@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 500px;
+    text-align: center;
+    padding-top: 150px;
+    background-image: url(../images/barinheader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family:fantasy;
+}
+
+h2 {
+    color: rgba(36, 186, 230, 0.71);
+    padding-top: 50px;
+    text-align: center;
+}
+
+h3 {
+    color: rgba(36, 186, 230, 0.71);
+    text-align: center;
+}
+
+#wrapper{
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+#center {
+    padding: 150px;
+    padding-top: 20px;
+}
+
+#map {
+    padding:10%;
+    padding-top: 20px;
+}
+
+#bars img{
+    margin-bottom:20px;
+    cursor:pointer;
+}
+
+#bars :hover img{
+    animation: run 1.5s;
+}
+
+@keyframes run{
+    0%{ transform:scale(0.8);}
+    25%{transform:scale(1.2);}
+    50%{transform:scale(1);}
+    70%{transform:scale(1.1);}
+    100%{transform:scale(1);}
+}
+
+#div1{
+    position: relative;
+    float:left;
+}
+
+#span1 {
+    font-size: 50px;
+    position: absolute;
+    bottom: 120px;
+    left: 150px;
+    text-align: center;
+    color: black;
+    display: none;
+}
+
+#span2 {
+    font-size: 50px;
+    position: absolute;
+    bottom: 120px;
+    left: 180px;
+    text-align: center;
+    color: black;
+    display: none;
+}
+
+#span3 {
+    font-size: 50px;
+    position: absolute;
+    bottom: 120px;
+    left: 115px;
+    text-align: center;
+    color: black;
+    display: none;
+}
+
+#bars :hover span{
+    animation: run 1.5s;
+    display: block;
+}
+
+a img {
+    padding-left: 100px;
+    padding-top: 50px;
+    height: 300px;
+    width: 500px;    
+}
+
+aside {
+    padding-right: 150px;
+    float: right;
+    width: 30%;
+}
+
+footer {
+    clear:both;
+    padding: 1em; 
+    padding-top: 20%;
+    text-align:center;
+    bottom: 20px;
+    width: 100%;
+}

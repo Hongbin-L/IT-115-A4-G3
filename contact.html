@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bars in Capitol Hill</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/nav.css" />
+<link rel="stylesheet" href="css/contact.css" />
+<script src="js/contact.js"></script>
+</head>
+<body>
+    <nav id="cssmenu">
+        <ul class="center" >
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="map.html">MAP</a></li>
+            <li><a href="contact.html">CONTACT</a></li>          
+        </ul>
+    </nav>
+<main>
+    <div class="contact">
+        <h2>Contact Us!</h2>
+        <div id="error_message"></div>
+        <form id="myform" onsubmit="return validation()">
+            <div class="input_field">
+                <input type="text" placeholder="Name" id="name">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Subject" id="subject">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Phone" id="phone">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Email" id="email">
+            </div>
+            <div class="input_field">
+                <textarea id="message" placeholder="Message"></textarea>
+            </div>
+            <div class="btn">
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+        </main>
+    
+    <footer>
+  <p><small>&copy; 2021 - <script>
+document.write(new Date().getFullYear())
+</script> by Hongbin Liu, All Rights Reserved ~ <a href="https://validator.w3.org/check?uri=referer" target="_blank">Valid HTML</a> ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+</footer>
+</body>
+</html>
