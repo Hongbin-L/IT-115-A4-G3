@@ -41,7 +41,6 @@ h4 {
     text-align: center;
 }
 
-
 h5 {
     font-size: 30px;
     text-align: center;
@@ -64,9 +63,6 @@ p {
 #center li {
    font-size: 20px;
     line-height: 3; 
-p {
-    font-size: 20px;
-    line-height: 3;
 }
 
 #wrapper{
@@ -113,21 +109,9 @@ p {
 }
 
 #div3 {
-
     position: relative;
     float:left;
 }
-
-#div4 {
-    position: relative;
-    float:left;
-}
-
-#div5 {
-    position: relative;
-    float:left;
-}
-
 
 #span1 {
     font-family:fantasy;
@@ -146,7 +130,6 @@ p {
     position: absolute;
     bottom: 120px;
     left: 120px;
-    left: 200px;
     text-align: center;
     color: black;
     display: none;
@@ -158,32 +141,6 @@ p {
     position: absolute;
     bottom: 120px;
     left: 200px;
-    font-size: 50px;
-    position: absolute;
-    bottom: 120px;
-    left: 145px;
-    text-align: center;
-    color: black;
-    display: none;
-}
-
-#span4 {
-    font-family:fantasy;
-    font-size: 50px;
-    position: absolute;
-    bottom: 120px;
-    left: 170px;
-    text-align: center;
-    color: black;
-    display: none;
-}
-
-#span5 {
-    font-family:fantasy;
-    font-size: 50px;
-    position: absolute;
-    bottom: 120px;
-    left: 170px;
     text-align: center;
     color: black;
     display: none;
