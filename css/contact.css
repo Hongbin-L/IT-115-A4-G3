@@ -5,6 +5,7 @@
 }
 
 html {
+    background-color: white;
     background-image: url(../images/barinheader.jpg);
     background-size: cover;
     background-repeat: no-repeat;
