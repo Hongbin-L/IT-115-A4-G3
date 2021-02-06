@@ -17,15 +17,15 @@ html {
 }
 h1 {
     font-family:fantasy;
-    font-size: 80px;
+    font-size: 5em;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 2.5em;
     color: rgba(36, 186, 230, 0.71);
-    padding-top: 50px;
+    padding-top: 5%;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 2%;
 }
 
 h3 {
@@ -34,51 +34,45 @@ h3 {
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 2em;
     color: rgba(36, 186, 230, 0.71);
-    padding-top: 50px;
-    padding-right: 8%;
+    padding-top: 5%;
     text-align: center;
 }
 
 h5 {
-    font-size: 30px;
+    font-size: 2em;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 2%;
     color: rgba(36, 186, 230, 0.71);
 }
 
 h6{
-    font-size: 25px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    font-size: 1.7em;
+    padding-top: 2%;
+    padding-bottom: 2%;
     color: black;
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.4em;
     line-height: 2;
 }
 
 #center li {
-   font-size: 20px;
+   font-size: 1.4em;
     line-height: 3; 
 }
 
 #wrapper{
-    padding-top: 20px;
-    padding-left: 150px;
+    padding-top: 2%;
+    padding-left: 9%;
 }
 
 #center {
     padding: 20%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#map {
-    padding:34%;
-    padding-top: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 #bars img{
@@ -115,10 +109,10 @@ p {
 
 #span1 {
     font-family:fantasy;
-    font-size: 50px;
+    font-size: 3em;
     position: absolute;
-    bottom: 120px;
-    left: 170px;
+    bottom: 40%;
+    left: 35%;
     text-align: center;
     color: black;
     display: none;
@@ -126,10 +120,10 @@ p {
 
 #span2 {
     font-family:fantasy;
-    font-size: 50px;
+    font-size: 3em;
     position: absolute;
-    bottom: 120px;
-    left: 120px;
+    bottom: 40%;
+    left: 25%;
     text-align: center;
     color: black;
     display: none;
@@ -137,10 +131,10 @@ p {
 
 #span3 {
     font-family:fantasy;
-    font-size: 50px;
+    font-size: 3em;
     position: absolute;
-    bottom: 120px;
-    left: 200px;
+    bottom: 40%;
+    left: 40%;
     text-align: center;
     color: black;
     display: none;
@@ -165,205 +159,224 @@ aside {
 }
 
 #popular1 img{
-    width:500px;
-    height: 250px;
+    width:40%;
+    height: 25%;
     float: left;
 }
 
 #popular1 p{
     font-size: 1em;
-    width: 500px;
-    height: 400px;
+    width: 50%;
+    height: 40%;
     float:right;
     display: inline;
 }
 
 #popular1 aside{
+    width: 30%;
+    height: 30%;
     text-align: center;
-    float: left;
+    float: right;
     
 }
 
 #popular2 h6{
-    padding-top: 250px;
+    padding-top: 25%;
 }
 
 #popular2 img{
-    width:500px;
-    height: 250px;
+    width:40%;
+    height: 25%;
     float: left;
 }
 
 #popular2 p{
     font-size: 1em;
-    width: 500px;
-    height: 400px;
+    width: 50%;
+    height: 40%;
     float:right;
     display: inline;
 }
 
 #popular2 aside{
+    width: 30%;
+    height: 30%;
     text-align: center;
-    float: left;
+    float: right;
 }
 
 #popular3 h6{
-    padding-top: 250px;
+    padding-top: 25%;
 }
 
 #popular3 img{
-    width:300px;
-    height: 300px;
+    width:25%;
+    height: 35%;
     float: left;
 }
 
 #popular3 p{
     font-size: 1em;
-    width: 500px;
-    height: 400px;
+    width: 50%;
+    height: 40%;
     float:right;
     display: inline;
 }
 
 #popular3 aside{
+    width: 30%;
+    height: 30%;
     text-align: center;
-    float: left;
+    float: right;
 }
 
 #back a p{
-    padding-top: 200px;
+    padding-top: 20%;
     text-align: center;
     color: black;
 }
 
 #uc1 img{
-    width:500px;
-    height: 250px;
+    width:40%;
+    height: 25%;
     float: left;
 }
 
 #uc1 p{
     font-size: 1em;
-    width: 500px;
-    height: 400px;
+    width: 50%;
+    height: 40%;
     float:right;
     display: inline;
 }
 
 #uc1 aside{
+    width: 30%;
+    height: 30%;
     text-align: center;
-    float: left;  
+    float: right;  
 }
 
 #uc2 h6{
-    padding-top: 250px;
+    padding-top: 25%;
 }
 
 #uc2 img{
-    width:500px;
-    height: 250px;
+    width:40%;
+    height: 25%;
     float: left;
 }
 
 #uc2 p{
     font-size: 1em;
-    width: 500px;
-    height: 400px;
+    width: 50%;
+    height: 40%;
     float:right;
     display: inline;
 }
 
 #uc2 aside{
+    width: 30%;
+    height: 30%;
     text-align: center;
-    float: left;
+    float: right;
 }
 
 #uc3 h6{
-    padding-top: 250px;
+    border-top: 30%;
+    padding-top: 25%;
 }
 
 #uc3 img{
-    width:300px;
-    height: 350px;
+    width:25%;
+    height: 35%;
     float: left;
 }
 
 #uc3 p{
     font-size: 1em;
-    width: 500px;
-    height: 400px;
+    width: 50%;
+    height: 40%;
     float:right;
     display: inline;
 }
 
 #uc3 aside{
+    width: 30%;
+    height: 30%;
     text-align: center;
-    float: left;
+    float: right;
 }
 
 #party1 img{
-    width:500px;
-    height: 250px;
+    width:40%;
+    height: 25%;
     float: left;
 }
 
 #party1 p{
     font-size: 1em;
-    width: 500px;
-    height: 400px;
+    width: 50%;
+    height: 40%;
     float:right;
     display: inline;
 }
 
 #party1 aside{
+    width: 30%;
+    height: 30%;
     text-align: center;
-    float: left;
+    float: right;
 }
 
 #party2 h6{
-    padding-top: 250px;
+    padding-top: 25%;
 }
 
 #party2 img{
-    width:300px;
-    height: 350px;
+    width:25%;
+    height: 35%;
     float: left;
 }
 
 #party2 p{
     font-size: 1em;
-    width: 500px;
-    height: 400px;
+    width: 50%;
+    height: 40%;
     float:right;
     display: inline;
 }
 
 #party2 aside{
+    width: 30%;
+    height: 30%;
     text-align: center;
-    float: left;
+    float: right;
 }
 
 #party3 h6{
-    padding-top: 250px;
+    padding-top: 25%;
 }
 
 #party3 img{
-    width:300px;
-    height: 350px;
+    width:25%;
+    height: 35%;
     float: left;
 }
 
 #party3 p{
     font-size: 1em;
-    width: 500px;
-    height: 400px;
+    width: 50%;
+    height: 40%;
     float:right;
     display: inline;
 }
 
 #party3 aside{
+    width: 30%;
+    height: 30%;
     text-align: center;
-    float: left;
+    float: right;
 }
 
 footer {
@@ -371,6 +384,6 @@ footer {
     padding: 1em; 
     padding-top: 20%;
     text-align:center;
-    bottom: 20px;
+    bottom: 2%;
     width: 100%;
 }

@@ -79,3 +79,10 @@ footer {
     width: 100%;
 }
 
+@media all and (max-width:1400px) {
+    html {
+        background-image: url(../images/phonebar.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
